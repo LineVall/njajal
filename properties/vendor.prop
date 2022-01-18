@@ -235,6 +235,7 @@ debug.stagefright.omx_default_rank=0
 vendor.netflix.bsp_rev=Q6150-17263-1
 
 # Display
+debug.sf.frame_rate_multiple_threshold=120
 ro.surface_flinger.set_idle_timer_ms=4000
 ro.surface_flinger.set_touch_timer_ms=4000
 ro.surface_flinger.set_display_power_timer_ms=1000
