@@ -43,7 +43,7 @@ PRODUCT_PACKAGES += \
     android.hardware.audio@7.0-impl \
     android.hardware.audio.effect@7.0-impl \
     android.hardware.audio.service \
-    android.hardware.bluetooth.audio@2.1-impl \
+    android.hardware.bluetooth.audio-impl \
     android.hardware.soundtrigger@2.2-impl \
     libtinycompress \
     sku_sweet_audio_symlink
