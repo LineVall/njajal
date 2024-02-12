@@ -173,7 +173,7 @@ PRODUCT_PACKAGES += \
     qcom.fmradio
 
 PRODUCT_PACKAGES += \
-    libsdmcore-shim
+    hwcomposer.qcom
 
 # Fstab
 PRODUCT_COPY_FILES += \
