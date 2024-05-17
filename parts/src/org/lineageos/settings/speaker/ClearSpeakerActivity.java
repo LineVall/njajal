@@ -25,11 +25,8 @@ public class ClearSpeakerActivity extends CollapsingToolbarBaseActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        
-        getFragmentManager()
-                .beginTransaction()
-                .replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame,
-                new ClearSpeakerFragment())
+        getFragmentManager().beginTransaction()
+                .replace(com.android.settingslib.collapsingtoolbar.R.id.content_frame, new ClearSpeakerFragment())
                 .commit();
     }
 }
